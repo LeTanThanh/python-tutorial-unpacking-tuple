@@ -30,3 +30,12 @@ if __name__ == "__main__":
   numbers = 10, 20, 30
   print(numbers)
   print(type(numbers))
+
+  # Using unpacking tuple to swap values of two variables
+
+  x = 10
+  y = 20
+  print(f"x = {x}, y = {y}")
+
+  x, y = (y, x)
+  print(f"x = {x}, y = {y}")
