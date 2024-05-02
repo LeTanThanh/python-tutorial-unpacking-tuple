@@ -57,3 +57,13 @@ if __name__ == "__main__":
 
   # x, y, *z, *t = (10, 20, 30, "10:30")
   # SyntaxError
+
+  # Using the * operator on the right hand side
+
+  odd_numbers = (1, 3, 5)
+  even_numbers = (2, 4, 6)
+  numbers = (*odd_numbers, *even_numbers)
+
+  print(odd_numbers)
+  print(even_numbers)
+  print(numbers)
