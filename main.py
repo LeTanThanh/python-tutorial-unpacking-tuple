@@ -47,3 +47,13 @@ if __name__ == "__main__":
 
   x, y, _ = 10, 20, 30
   print(x, y, _)
+
+  # Extended unpacking using the * operator
+
+  r, g, *other = (192, 210, 100, 0.5)
+  print(r)
+  print(g)
+  print(other)
+
+  # x, y, *z, *t = (10, 20, 30, "10:30")
+  # SyntaxError
