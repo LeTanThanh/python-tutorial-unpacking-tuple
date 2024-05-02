@@ -39,3 +39,11 @@ if __name__ == "__main__":
 
   x, y = (y, x)
   print(f"x = {x}, y = {y}")
+
+  # ValueError: too many values to unpack
+
+  # x, y = 10, 20, 30
+  # ValueError
+
+  x, y, _ = 10, 20, 30
+  print(x, y, _)
